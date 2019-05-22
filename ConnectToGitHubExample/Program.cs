@@ -6,7 +6,9 @@ namespace ConnectToGitHubExample
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string name = "DAniel";
+
+            Console.WriteLine($"Hello {name}");
         }
     }
 }
