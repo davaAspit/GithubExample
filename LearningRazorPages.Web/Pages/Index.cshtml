@@ -1,0 +1,34 @@
+﻿@page
+@{ 
+    string name = "Daniel";
+    int age = 29;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>Hello World!</h2>
+    <p>Klokken er lige nu @DateTime.Now.ToShortTimeString() og det er godt nok mange.</p>
+    <p>Jeg hedder @name og er @age år gammel.</p>
+    @{ 
+        if (age > 18)
+        {
+            <p>Du må gerne købe spiritus</p>
+        }
+        else
+        {
+            <p>Du er ikke gammel nok</p>
+        }
+            <ul>
+                @for (int i = 0; i < 15; i++)
+                {
+                    <li>@i</li>
+                }
+            </ul>
+    }
+    <footer></footer>
+</body>
+</html>

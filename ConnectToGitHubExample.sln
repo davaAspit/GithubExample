@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectToGitHubExample", "ConnectToGitHubExample\ConnectToGitHubExample.csproj", "{84FA018F-D523-453F-A1D6-1F533169456C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningRazorPages.Web", "LearningRazorPages.Web\LearningRazorPages.Web.csproj", "{4945CEA7-1569-43CB-8FD1-5439C3B217ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{84FA018F-D523-453F-A1D6-1F533169456C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84FA018F-D523-453F-A1D6-1F533169456C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84FA018F-D523-453F-A1D6-1F533169456C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4945CEA7-1569-43CB-8FD1-5439C3B217ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4945CEA7-1569-43CB-8FD1-5439C3B217ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4945CEA7-1569-43CB-8FD1-5439C3B217ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4945CEA7-1569-43CB-8FD1-5439C3B217ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
